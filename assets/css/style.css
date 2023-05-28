@@ -2,5 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 
+#container{
+    display: flex;
+    
+}
+
+#menu{
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+}
+#principal{
+    background-color: #bec1bb;
+    width: 70%;
+    height: 100%;
+}
+#principal h1{
+    font-size: 45px;
+}
+#principal p{
+    font-size: 10px;
+}
+#principal_img{
+    height: 150px;
+    justify-content:center;
+}
+
+#menu_perfil_maria {
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+#menu_perfil_maria_img img{ 
+    height: 40px;
+    border-radius: 20px;
+}
+
+#menu_perfil_maria_datos{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#menu_perfil_maria_datos_nombre{
+   
+    font-weight: bold;
+    color: #1b1f21;
+    font-size: 10px;
+}
+
+#menu_perfil_maria_datos_estado{
+    
+    color: #bec1bb;
+    font-size: 10px;
+}
+
+#menu_boton_btn:active{
+    background-color: #a491d2;
+}
+
+#menu_boton_btn:hover{
+    background-color: #cdc3e6;
+}
+
+#menu_boton_btn:focus{
+    background-color: #d4dcff;
 }
