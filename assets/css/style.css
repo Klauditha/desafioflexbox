@@ -7,34 +7,69 @@
 
 #container{
     display: flex;
-    
+    /*flex-basis: 0 0 100% rem;*/
+    /*justify-content: center;*/
+}
+
+#principal{
+    background-color: #E8EBE4;
+    width: 80%;
+    max-width: 80%;
+    max-height: 100%;
+    border: 1px;
+    border-color: #828485 ;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#principal h1{
+    font-size: 45px;
+    align-self: center;
+}
+#principal p{
+    align-self: center;
+    font-size: 10px;
+}
+#principal_img{
+    align-self: center;
+    height: 150px;
 }
 
 #menu{
     background-color: #fff;
-    width: 30%;
-    height: 100%;
-}
-#principal{
-    background-color: #bec1bb;
-    width: 70%;
-    height: 100%;
-}
-#principal h1{
-    font-size: 45px;
-}
-#principal p{
-    font-size: 10px;
-}
-#principal_img{
-    height: 150px;
+    max-height: 100%;
+    max-width: 20%;
+    width: 20%;
+    border: 1px;
+    border-color: #828485 ;
+    display: flex;
+    flex-direction:column;
     justify-content:center;
 }
-
-#menu_perfil_maria {
-    padding-left: 10px;
-    padding-top: 10px;
+#menu_perfil{
     display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    border: 1px solid #E8EBE4;
+}
+#menu_perfil_maria {
+    padding-left: 0px;
+    padding-top: 5px;
+    display: flex;
+}
+
+#menu_perfil_botones{
+    display: flex;
+    justify-content: center;
+}
+
+.menu_perfil_botones_btn{
+    align-self: center;
+    margin-left: 10px;
+    color: #bec1bb;
+    
 }
 #menu_perfil_maria_img img{ 
     height: 40px;
@@ -47,8 +82,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
 #menu_perfil_maria_datos_nombre{
-   
     font-weight: bold;
     color: #1b1f21;
     font-size: 10px;
@@ -58,11 +93,25 @@
     color: #bec1bb;
     font-size: 10px;
 }
+
+#menu_boton{
+    display: flex;
+    justify-content:center;
+    border: 1px solid #E8EBE4;
+}
+
 #menu_boton_btn{
+    margin: 20px 0;
     padding: 5px 10px;
     text-align: center;
     font-size: 10px;
+    width: 60%;
+    height: 30px;
+    color:#fff;
+    border:0;
+    background-color: #a491d2;
 }
+
 #menu_boton_btn:active{
     background-color: #a491d2;
     
@@ -80,6 +129,20 @@
     display: flex;
 }
 
+.participante{
+    padding:5px 0;
+    display: flex;
+    border: 1px solid #E8EBE4;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.participante_texto{
+    display: flex;
+    flex-direction: column;
+    column-gap: -20px;
+}
 .participante_nombre {
     font-weight: bold;
     color: #1b1f21;
