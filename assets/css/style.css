@@ -134,14 +134,15 @@
     display: flex;
     border: 1px solid #E8EBE4;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    column-gap: 20px;
 }
 
 .participante_texto{
     display: flex;
     flex-direction: column;
-    column-gap: -20px;
+    
 }
 .participante_nombre {
     font-weight: bold;
