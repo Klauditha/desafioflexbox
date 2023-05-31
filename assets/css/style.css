@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+    max-height: 768px;
 }
 
 #container{
@@ -20,19 +21,18 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-basis: 1166px;
+    flex-basis: 1066px;
 }
 
 #principal h1{
     font-size: 45px;
     align-self: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #principal p{
     align-self: center;
-    font-size: 10px;
-  
+    font-size: 16px;
 }
 
 #principal_img{
@@ -51,7 +51,7 @@
     display: flex;
     flex-direction:column;
     justify-content:center;
-    flex-basis: 200px;
+    flex-basis: 300px;
 }
 
 #menu_perfil{
@@ -63,7 +63,7 @@
 
 #menu_perfil_maria {
     padding-left: 0px;
-    padding-top: 5px;
+    padding-top: 8px;
     display: flex;
 }
 
@@ -78,7 +78,7 @@
     color: #bec1bb;
 }
 
-#menu_perfil_maria_img img{ 
+#menu_perfil_maria_img img{
     height: 40px;
     border-radius: 20px;
 }
@@ -91,9 +91,9 @@
 }
 
 #menu_perfil_maria_datos_nombre{
-    font-weight: bold;
+    font-weight: normal;
     color: #1b1f21;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 #menu_perfil_maria_datos_estado{
@@ -108,20 +108,15 @@
 }
 
 #menu_boton_btn{
-    margin: 20px 0;
-    padding: 5px 10px;
+    margin: 18px 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 16px;
     width: 60%;
-    height: 30px;
+    height: 40px;
     color:#fff;
     border:0;
     background-color: #a491d2;
 }
-
-/*#menu_boton_btn:active{
-    background-color: #a491d2;
-}*/
 
 #menu_boton_btn:hover{
     background-color: #cdc3e6;
@@ -136,11 +131,10 @@
 }
 
 .participante{
-    padding:5px 0;
+    padding:7px 30px;
     display: flex;
     border: 1px solid #E8EBE4;
     flex-direction:row;
-    justify-content: center;
     align-items: center;
     column-gap: 20px;
 }
@@ -153,11 +147,11 @@
 .participante_nombre {
     font-weight: bold;
     color: #1b1f21;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .participante_info{
-    color: #bec1bb;
+    color: #444749;
     font-size: 10px;
 }
 
